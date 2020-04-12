@@ -1,0 +1,39 @@
+{
+	"name": "global-path-hook",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"author": "ethan-b123",
+	"license": "ISC",
+	"dependencies": {
+		"@types/react": "^16.9.33",
+		"lodash.at": "^4.6.0",
+		"lodash.clonedeep": "^4.5.0",
+		"lodash.has": "^4.5.2",
+		"lodash.set": "^4.3.2",
+		"lodash.topath": "^4.5.2"
+	},
+	"peerDependencies": {
+		"react": ">= 16.8.0"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"types.ts"
+	],
+	"description": "",
+	"devDependencies": {
+		"@babel/preset-env": "^7.9.5",
+		"@babel/preset-react": "^7.9.4",
+		"@testing-library/jest-dom": "^5.5.0",
+		"@testing-library/react": "^10.0.2",
+		"babel-jest": "^25.3.0",
+		"jest": "^25.3.0",
+		"jsdom": "^16.2.2",
+		"jsdom-global": "^3.0.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}
